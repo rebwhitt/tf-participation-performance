@@ -1,0 +1,34 @@
+File Manifest for ICPSR 2136
+
+U.S. Dept. of Education, National Center for Education Statistics. COMMON
+CORE OF DATA: ELEMENTARY/SECONDARY EDUCATION AGENCIES, 1985-1986. ICPSR
+version. Washington, DC: U.S. Dept. of Education, National Center for
+Education Statistics [producer], 1986. Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributor], 1999.
+http://doi.org/10.3886/ICPSR02136.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02136-descriptioncitation.pdf       -       -         -       2014-07-03  -
+
+    02136-related_literature.txt        -       -         -       daily       -
+
+    02136-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Common Core of Data:  Elementary/Secondary Education Agencies, 1985-
+1986
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02136-0001-Codebook.pdf             -       -         -       1999-09-14  15350c6240a975bb12f2838a1d87e211
+
+    02136-0001-Data.txt                 152     17,081    21      1999-09-14  a2aae9afe9a61a63724f3e52a5404fce
+
+    02136-0001-Setup.sas                -       -         -       1999-09-14  488ebfbe48a35bc5c53ed83d9c8f67a1
+

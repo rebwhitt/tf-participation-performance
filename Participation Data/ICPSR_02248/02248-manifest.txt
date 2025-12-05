@@ -1,0 +1,31 @@
+File Manifest for ICPSR 2248
+
+U.S. Dept. of Education, National Center for Education Statistics. COMMON
+CORE OF DATA: PUBLIC SCHOOL UNIVERSE DATA, 1984-1985. ICPSR version.
+Washington, DC: U.S. Dept. of Education, National Center for Education
+Statistics [producer], 1985. Ann Arbor, MI: Inter-university Consortium for
+Political and Social Research [distributor], 1999.
+http://doi.org/10.3886/ICPSR02248.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02248-descriptioncitation.pdf       -       -         -       2014-07-03  -
+
+    02248-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Common Core of Data:  Public School Universe Data, 1984-1985
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02248-0001-Codebook.pdf             -       -         -       1999-10-22  f4cba05912d4d370cd72ad0c6acbd34e
+
+    02248-0001-Data.txt                 175     85,902    22      1999-10-22  54acddba01660226ad700ae07e68f68f
+
+    02248-0001-Setup.sas                -       -         -       1999-10-22  60ffb8362a8c5770fd7a482919f6a2c9
+

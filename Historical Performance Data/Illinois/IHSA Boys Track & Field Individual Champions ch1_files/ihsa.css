@@ -1,0 +1,1303 @@
+/* CSS Document */
+
+/* GENERIC, from Amelia */
+
+H1 {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+	font-size:22px;
+	color:#172751;
+	font-weight:normal;
+	margin: 12px 0px 6px 0px; 
+}
+
+H2 {
+	/* font-family:Rockwell, "Rockwell MT", 'LithoMedium', Arial, Helvetica, sans-serif;*/
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+	font-size:20px;
+	/*color:#333;*/
+	color:#172751;
+	margin: 15px 0px 5px 0px; 
+	line-height:132%;
+	font-weight:normal;
+	}
+
+H3 {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+	font-size:18px;
+	/*color:#335FA3;*/
+	color:#172751;
+	font-weight:normal;
+	padding:0;
+	margin:12px 0 6px;
+}
+
+H4 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	color:#444;
+	margin:8px 0 6px;
+	padding:0;
+}
+
+H5 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:15px;
+	font-style:normal;
+	font-weight:normal;
+	color:#921817;
+	margin:4px 0 2px;
+	padding:0;
+}
+
+H6 {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#777;
+	font-size:13px;
+	font-weight:bold;
+	margin:0;
+	padding:4px 0;
+}
+
+ul li {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height: 130%;
+	list-style-image:url(images/arrow.png);
+	vertical-align:-3px;
+	margin:2px 0 2px 0px;
+	padding:0 0 0 0px;
+}
+
+ul {
+	margin:0 0 0 22px;
+	padding:0;
+}
+
+
+ol li {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height: 130%;
+	vertical-align:-3px;
+	margin:2px 0 2px 0px;
+	padding:0 0 0 0px;
+}
+
+ol {
+	margin:0 0 0 22px;
+	padding:0;
+}
+
+/* global classes ---------------------------------------------------- */
+
+.w100, .fullwidth { width: 100%; }							/* for tables and cells */
+
+.l { text-align: left; }
+.c { text-align: center; }
+.r { text-align: right; }
+.tabc {margin-left:auto; margin-right:auto;} /* for tables */
+
+.top { vertical-align: top; }
+.mid { vertical-align: middle; }
+.bot { vertical-align: bottom; }
+
+.b { font-weight: bold; }
+.i { font-style: italic; }
+.u { text-decoration: underline; }
+.strike { text-decoration: line-through; }
+
+.floatl { float: left }
+.floatr { float: right }
+
+.courier { font-family: Courier; }
+
+.red { color: #FF0033; }
+.green { color: #006600; }
+.blue { color: #000066; }
+.yellow { color: #FFFF66; }
+.pink { color: #FF99CC; }
+.orange { color: #FF6600; }
+.white { color: #FFFFFF; }
+.gray { color: #666666; }
+.ltgray { color: #CCCCCC; }
+.purple { color: #663399; }
+.black { color: #000000; }
+.ltblue { color: #BFDFFF; }
+.teal { color: #00FF99; }
+
+.bgred { background-color: #FF0033; }
+.bggreen{ background-color: #006600; }
+.bgblue { background-color: #000066; }
+.bgyellow { background-color: #FFFF66; }
+.bgltyellow { background-color: #FFFF99; }		/* light yellow = highliter */
+.bgpink { background-color: #FF99CC; }
+.bgihsalightblue { background-color: #d2d5de; }
+.bgihsalightgray { background-color: #f0f0f0; }
+.bgorange { background-color: #FF6600; }
+.bgwhite { background-color: #FFFFFF; }
+.bggray { background-color: #666666; }
+.bgltgray { background-color: #CCCCCC; }
+.bgpurple { background-color: #663399; }
+.bgblack { background-color: #000000; }
+.bgltblue { background-color: #BFDFFF; }
+.bgteal { background-color: #00FF99; }
+.bgltgreen { background-color: #BCEFB4; }
+.bgltpink { background-color: #FFE8F3; }
+.bgvltgray { background-color: #EEEEEE; }
+.bgvltblue { background-color: #DFF1FF; }
+.bgvltyellow { background-color: #FFFFCC; }		
+.bgerror { background-color: #FFCECE; }
+.bgaction { background-color: #FFB0B0; }
+.bgltpurple { background-color: #FF99FF; }
+.bgltorange { background-color: #FFAA44; }
+.bgvltgreen { background-color: #DBF7D7; }
+.bgcountrygr { background-color: #007a3e; }
+
+.pad8, .pad { padding: 8px; }
+.pad4 { padding: 4px; }
+.pad2 { padding: 2px; }
+
+.px80 {	font-size: 80px; }
+.px70 {	font-size: 70px; }
+.px60 {	font-size: 60px; }
+.px50 {	font-size: 50px; }
+.px40 {	font-size: 40px; }
+.px32 {	font-size: 32px; }
+.px28 {	font-size: 28px; }
+.px24 {	font-size: 24px; }
+.px20 {	font-size: 20px; }
+.px18 {	font-size: 18px; }
+.px16 {	font-size: 16px; }
+.px14 {	font-size: 14px; }
+.px13 {	font-size: 13px; }
+.px12 {	font-size: 12px; }
+.px11 {	font-size: 11px; }
+.px10 {	font-size: 10px; }
+
+.box8, .box  {
+	border-width: 1px;
+	border-style: solid;
+	padding: 8px;
+}
+
+.box4  {
+	border-width: 1px;
+	border-style: solid;
+	padding: 4px;
+}
+
+/* div styles  ------------------------------------------------------------------------ */
+
+div.clear { clear: both; }
+div.break { page-break-before: always; }
+
+		/* the DNN HTML module editor won't allow a CSS specification, 
+		   so this style actually has to be specified inside the DIV command */
+
+div.iframe-menu {
+	background-color: #FFFF99;
+	padding: 5px;
+	border: thin dotted #999999;
+}  
+
+/* standard paragraphs and headers ---------------------------------------------------- */
+
+p {
+	font-size: 13px;
+	line-height: 130%;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+
+p.bef4 { margin-top: 4px; }									/* for paragraphs, space before */
+p.bef { margin-top: 8px; }									/* for paragraphs, space before */
+p.aft { margin-bottom: 8px; }								/* for paragraphs, space after */
+p.fli { text-indent: 25px; }								/* for paragraphs, first line indent */
+p.i10 { margin-left: 10%; margin-right: 10%; }				/* for paragraphs, indent 10% both sides */
+p.i20 { margin-left: 20%; margin-right: 20%; }				/* for paragraphs, indent 20% both sides */
+p.i30 { margin-left: 30%; margin-right: 30%; }				/* for paragraphs, indent 20% both sides */
+p.halfline { height: 6px; } 
+
+span.plain {
+	font-size: 13px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+p.last-update {
+	font-size: 16px;
+	font-weight: normal;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+p.nospace {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p.exdent {
+	text-indent: -30px;
+	padding-left: 30px;
+}
+
+p.Xalert	{
+	margin: 3px 0px 6px 0px;
+	padding: 8px;
+	text-align: left;
+	font-weight: bold;
+	border: 1px solid;
+	border-color: #999999;
+	background-color: #FF9999;
+} 
+
+p.Xwarning	{
+	margin: 3px 0px 6px 0px;
+	padding: 8px;
+	text-align: left;
+	font-weight: bold;
+	border: 1px solid;
+	border-color: #999999;
+	background-color: #FFCC66;
+} 
+
+p.event-head {
+	font-size: 16px;
+	margin: 3px 0px 6px 0px;
+	padding: 3px;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid;
+	border-color: #CCCCCC;
+	background-color: #FFDD97;
+} 
+
+li.scottcal {
+	font-size: 11px;
+	line-height: 115%;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+}
+
+
+/* standard datagrids ---------------------------------------------------- */
+
+table.simple {
+	border: 0px;
+}
+
+table.simple td {
+	border: 0px;
+	padding: 1px 6px 1px 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	/* vertical-align: middle;	   ' is the default; if specified here, global classes won't change it */
+	/* text-align: left            ' is the default; if specified here, global classes won't change it */
+}
+
+
+/* standard datagrids ---------------------------------------------------- */
+
+	/* in style "dgdefault", each cell is centered vertically */
+
+table.dgdefault {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+table.dgdefault tr {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+table.dgdefault tr.alt {
+	background-color: #E6E6E6;
+}
+
+table.dgdefault th {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	padding: 1px 6px 1px 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #BFDFFF;
+	color: #333333;
+	/* vertical-align: middle;	   ' is the default; if specified here, global classes won't change it */
+	/* text-align: center          ' is the default; if specified here, global classes won't change it */
+}
+
+table.dgdefault td {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	padding: 1px 6px 1px 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	/* vertical-align: middle;	   ' is the default; if specified here, global classes won't change it */
+	/* text-align: left            ' is the default; if specified here, global classes won't change it */
+}
+
+
+	/* in style "dg" (for datagrid), each cell is aligned to the top */
+
+table.dg {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+table.dg tr {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+table.dg tr.alt {
+	background-color: #E6E6E6;
+}
+
+table.dg th {
+	border-left: 2px solid #172751;
+	border-right: 2px solid #172751;
+	border-top: 2px solid #172751;
+	border-bottom: 2px solid #F26E22;
+
+	border-collapse: collapse;
+	padding: 2px 6px 2px 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+ 	font-weight: normal; 
+	background-color: #172751;
+	color: #fff;
+	vertical-align: bottom;		  /* since this is specified, global classes won't change it */
+	/* 	text-align: center        ' is the default; if specified here, global classes won't change it */
+}
+
+table.dg td {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	padding: 1px 6px 1px 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	vertical-align: top;		  /* since this is specified, global classes won't change it */
+	/* text-align: left           ' is the default; if specified here, global classes won't change it */
+}
+
+
+	/* in style "dg-narrowed" (for datagrid), each cell is aligned to the middle */
+
+table.dg-narrowed {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+table.dg-narrowed tr {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+table.dg-narrowed tr.alt {
+	background-color: #E6E6E6;
+}
+
+table.dg-narrowed th {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	padding: 1px 3px 1px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #BFDFFF;
+	color: #333333;
+	vertical-align: bottom;		  /* since this is specified, global classes won't change it */
+	/* 	text-align: center        ' is the default; if specified here, global classes won't change it */
+}
+
+table.dg-narrowed td {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	padding: 1px 3px 1px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	vertical-align: middle;		  /* since this is specified, global classes won't change it */
+	/* text-align: left           ' is the default; if specified here, global classes won't change it */
+}
+
+
+	/* in style "dg-very-compact" (for datagrid), each cell is aligned to the top */
+
+table.dg-very-compact {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+table.dg-very-compact tr {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+table.dg-very-compact tr.alt {
+	background-color: #E6E6E6;
+}
+
+table.dg-very-compact th {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	padding: 1px 0px 1px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	background-color: #BFDFFF;
+	color: #333333;
+	vertical-align: bottom;		  /* since this is specified, global classes won't change it */
+	/* 	text-align: center        ' is the default; if specified here, global classes won't change it */
+}
+
+table.dg-very-compact td {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	padding: 1px 0px 1px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	vertical-align: top;		  /* since this is specified, global classes won't change it */
+	/* text-align: left           ' is the default; if specified here, global classes won't change it */
+}
+
+
+	/* in style "dg-compact" (for datagrid), each cell is aligned to the top */
+
+table.dg-compact {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+table.dg-compact tr {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+table.dg-compact tr.alt {
+	background-color: #E6E6E6;
+}
+
+table.dg-compact th {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	padding: 1px 0px 1px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #BFDFFF;
+	color: #333333;
+	vertical-align: bottom;		  /* since this is specified, global classes won't change it */
+	/* 	text-align: center        ' is the default; if specified here, global classes won't change it */
+}
+
+table.dg-compact td {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	padding: 1px 0px 1px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	vertical-align: top;		  /* since this is specified, global classes won't change it */
+	/* text-align: left           ' is the default; if specified here, global classes won't change it */
+}
+
+
+
+	/* in style "sites" (for correlated sites), each cell is centered vertically */
+
+table.sites {
+	border: 1px solid #172751;
+	border-collapse: collapse;
+}
+
+table.sites tr {
+	border: 1px solid #172751;
+	border-collapse: collapse;
+}
+
+table.sites th {
+	border-left: 1px solid #172751;
+	border-right: 1px solid #172751;
+	border-top: 2px solid #172751;
+	border-bottom: 2px solid #F26E22;
+	border-collapse: collapse;
+	padding: 1px 6px 1px 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	background-color: #172751;
+	color: #fff;
+	vertical-align: bottom;		  /* since this is specified, global classes won't change it */
+	/* 	text-align: center        ' is the default; if specified here, global classes won't change it */
+}
+
+table.sites td {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	padding: 1px 6px 1px 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	/* vertical-align: middle;	   ' is the default; if specified here, global classes won't change it */
+	/* text-align: left           ' is the default; if specified here, global classes won't change it */
+}
+
+
+	/* in style "bracket" (for state tournament bracket), each cell is centered vertically */
+
+table.bracket {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+table.bracket tr {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+table.bracket td {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	padding: 1px 6px 1px 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	/* vertical-align: middle;	   ' is the default; if specified here, global classes won't change it */
+	/* text-align: left            ' is the default; if specified here, global classes won't change it */
+}
+
+table.bracket td.title {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	padding: 6px;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #95C0D6;
+}
+
+table.bracket td.level {
+	font-size: 13px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #FFCC99;
+	height: 30px;
+}
+
+table.bracket td.round {
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #CCFF99;
+	height: 20px;
+}
+
+	/* in style "assign" (for tournament assignments), each cell is aligned to the top */
+
+table.assign {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+table.assign tr {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+table.assign td {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	padding: 6px 15px 6px 15px;
+	vertical-align: top;	   ' is the default; if specified here, global classes won't change it */
+	/* text-align: left            ' is the default; if specified here, global classes won't change it */
+}
+
+/* ScoreZone pages and adaptations ---------------------------------------------------- */
+
+p.sz-menu-date {
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+
+p.sz-menu-justscore {
+	font-size: 18px;
+	font-weight: normal;
+	font-family: "Times New Roman", Times, serif;
+}
+
+p.sz-menu-item {
+	font-size: 13px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	margin: 0px;
+}
+
+
+table.sz-contest		{
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	background-color: #FFFFFF;
+}
+
+table.sz-contest tr {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+}
+
+table.sz-contest td {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	padding: 3px 6px 3px 6px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table.sz-contest td.site {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #444444;
+	color: #FFFFFF;
+}
+
+table.sz-contest td.site-hot {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #008800;
+	color: #FFFFFF;
+}
+
+table.sz-contest td.site-final {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #BB0000;
+	color: #FFFFFF;
+}
+
+table.sz-contest td.site-ppd {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #DDDD00;
+	color: #000000;
+}
+
+table.sz-contest td.level {
+	text-align: center;
+	font-size: 10px;
+	background-color: #EEEEEE;
+}
+
+table.sz-contest td.school {
+	text-align: left;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+table.sz-contest td.score {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+table.sz-contest td.period {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+table.sz-contest td.schedule-change {
+	text-align: left;
+	font-size: 11px;
+	font-weight: bold;
+	color: #CC0000;
+}
+
+table.sz-contest td.highlight {
+	text-align: left;
+	font-size: 11px;
+}
+
+table.sz-contest td.unusual-info {
+	text-align: left;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+table.sz-contest td.happening {
+	text-align: left;
+	font-size: 11px;
+}
+
+table.sz-contest td.audio-video {
+	text-align: center;
+	font-size: 11px;
+}
+
+
+
+
+/* table for displaying menu page scoreboards */
+
+table.scoreboard { 
+	border: 1px solid; 
+	border-color: #cccccc; 
+	border-collapse: collapse; 
+}
+table.scoreboard th	{ 
+	border: 1px solid; 
+	border-color: #cccccc; 
+	border-collapse: collapse; 
+	padding: 3px; 
+	text-align: center; 
+	font-size: 11px;
+	font-family:  Arial, Helvetica, sans-serif;
+} 
+table.scoreboard td	{
+	border: 1px solid;
+	border-color: #cccccc;
+	border-collapse: collapse;
+	padding: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 10px;
+} 
+
+table.scoreboard th.titlebar-class	{ 
+	font-weight: bold;
+	color: #003366; 
+	background-color: #ffcc99; 
+}
+table.scoreboard th.titlebar-team-or-indiv	{ 
+	font-weight: bold;
+	color: #CC3333; 
+	background-color: #cccccc; 
+}
+table.scoreboard th.titlebar-event	{ 
+	font-weight: bold;
+	color: #003366; 
+	background-color: #eeeeee; 
+}
+
+table.scoreboard td.titlebar-class	{ 
+	font-weight: bold;
+	color: #003366; 
+	background-color: #ffcc99; 
+}
+table.scoreboard td.titlebar-team-or-indiv	{ 
+	font-weight: bold;
+	color: #CC3333; 
+	background-color: #cccccc; 
+}
+table.scoreboard td.titlebar-event	{ 
+	font-weight: bold;
+	color: #003366; 
+	background-color: #eeeeee; 
+}
+
+table.scoreboard td.titlebar-instructions { 
+} 
+table.scoreboard td.titlebar-header-note { 
+	color: #ff0000; 
+}
+table.scoreboard td.titlebar-footer-note { 
+	text-align: left; 
+	color: #ff0000; 
+	background-color: #ffffff; 
+}
+table.scoreboard td.sbrank	{ 
+} 
+table.scoreboard td.sbteam	{ 
+	text-align: left;  
+} 
+table.scoreboard td.sbscore	{ 
+} 
+table.scoreboard td.sbdate	{ 
+} 
+table.scoreboard td.sbdate1	{ 
+} 
+
+
+
+th.th.sz.r {
+	text-align: right;
+}
+th.th.sz.l {
+	text-align: left;
+}
+
+
+
+/* table for displaying new-style brackets */
+
+table.bracket2011 {
+	border-collapse: collapse;
+}
+
+table.bracket2011 td {
+	padding: 0px;
+	border: 0px;
+	height: 0px;
+}
+
+table.bracket2011 tr.spacer {
+	height: 7px;
+}
+
+table.bracket2011 td.team {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #aaa;
+	background-color: #F9F9F9;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+}
+
+table.bracket2011 td.score {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #aaa;
+	background-color: #F9F9F9;
+	text-align: center;
+	width: 20px;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+}
+
+table.bracket2011 td.site {
+	font-family: "ArialNarrow", "Arial Narrow", "Helvetica Narrow", sans-serif;
+	font-size: 13px;
+	padding: 0px 2px 0px 2px;
+	border: 1px solid #aaa;
+	/* background-color: #FFFFE1;*/
+ background-color: #ddd;
+	text-align: center;
+	vertical-align: top;
+	font-stretch: condensed;
+}
+
+table.bracket2011 td.longscore {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 0px;
+	border: 0px;
+	text-align: center;
+	vertical-align: top;
+}
+.roundwrap {
+background-color:#172751;
+border-bottom: 2px solid #F26E22;
+border-top: 1px solid #172751;
+border-left: 1px solid #172751;
+border-right: 1px solid #172751;
+
+}
+
+
+table.bracket2011 td.hide {
+}
+
+table.bracket2011 td.diminish {
+	border: 1px solid #DDD;
+	background-color: #FEFEFE;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+}
+
+table.bracket2011 td.level {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*padding: 0px 2px 0px 2px; */
+	/*border: 1px solid #aaa;*/
+/*
+ * background-color: #DCDAFE; 
+ */
+	border-left: 2px solid #172751;
+	border-right: 2px solid #172751;
+	border-top: 1px solid #172751;
+	border-bottom: 2px solid #F26E22;
+
+
+	background-color: #172751;
+	text-align: center;
+	text-transform: uppercase;
+/*	font-weight: bold; */
+	color: #fff;
+	padding: 4px;
+	/*border: 1px solid #aaa;*/
+
+}
+table.bracket2011 td.round {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*padding: 0px 2px 0px 2px; */
+	/*border: 1px solid #aaa;*/
+	padding: 4px;
+border-left: 2px solid #172751;
+	border-right: 2px solid #172751;
+	border-top: 1px solid #172751;
+	border-bottom: 2px solid #F26E22;
+
+
+/*
+ * background-color: #666666; 
+ */
+	 background-color: #172751; 
+	text-align: center;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	/*font-weight: bold;*/
+
+}
+
+table.bracket2011 td.brace {
+	width: 7px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #aaa;
+	border-right-color: #aaa;
+	border-bottom-color: #aaa;
+}
+
+table.bracket2011 td.bracetop {
+	width: 7px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #aaa;
+	border-right-color: #aaa;
+}
+
+table.bracket2011 td.bracebottom {
+	width: 7px;
+	border-bottom-width: 2px;
+	border-right-width: 2px;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-bottom-color: #aaa;
+	border-right-color: #aaa;
+}
+
+table.bracket2011 td.spike {
+	width: 7px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #aaa;
+}
+
+table.bracket2011 a:link {
+	font-size: 12px;
+}
+table.bracket2011 a:hover {
+	font-size: 12px;
+}
+
+
+/* special golf stuff */
+
+/* combined leader board  */
+
+table.GCombinedBoard   			{ width: 100%; border: 1px solid #CCC; border-collapse: collapse; 
+									text-align: center; background-color: #FFF;
+                        			font: 11pt "Times New Roman",Times,serif }
+									
+table.GCombinedBoard td  		{ border: 1px solid #CCC; padding: 1px }
+table.GCombinedBoard a:link 	{ color: black; text-decoration: underline }
+table.GCombinedBoard a:visited 	{ color: black; text-decoration: underline }
+table.GCombinedBoard a:hover 	{ color: red; text-decoration: underline }
+table.GCombinedBoard a:active 	{ color: red; text-decoration: underline }
+
+table.GCombinedBoard td.GCB-Playoff	    		{ background-color: #FD5; color: #000; font: bold 11pt }
+table.GCombinedBoard td.GCB-Head		    		{ background-color: #9C9; color: #000; font: bold 11pt }
+table.GCombinedBoard td.GCB-Team         		{ background-color: #DFD; color: #000; font: 11pt; text-align: left }
+table.GCombinedBoard td.GCB-Indiv        		{ background-color: #DFD; color: #000; font: 11pt; text-align: left; line-height: 97% }
+table.GCombinedBoard font.GCB-IndivTeam     		{ color: #000; font: 8pt}
+table.GCombinedBoard td.GCB-Total        		{ background-color: #FFF; color: #000; font: 11pt; text-align: left }
+table.GCombinedBoard td.GCB-Par          		{ background-color: #FFF; color: #000; font: bold 12pt }
+
+
+table.GCB-Message		{
+	width: 100%;
+	border: 0px;
+	text-align: center;
+	background-color: #DDD;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-weight: bold;
+}
+table.GCB-TourneyBA			{ width: 100%; border: 0px; text-align: center; background-color: #080;
+                    	    font: bold 11pt "Arial",HelveticaNarrow,sans-serif; color: #FFF }
+table.GCB-TourneyBA td 		{ padding: 0px; }
+table.GCB-TourneyBAA		{ width: 100%; border: 0px; text-align: center; background-color: #00C;
+                    	    font: bold 11pt "Arial",HelveticaNarrow,sans-serif; color: #FFF }
+table.GCB-TourneyBAA td 	{ padding: 0px; }
+table.GCB-TourneyB3A		{ width: 100%; border: 0px; text-align: center; background-color: #000000;
+                    	    font: bold 11pt "Arial",HelveticaNarrow,sans-serif; color: #FFF }
+table.GCB-TourneyB3A td 	{ padding: 0px; }
+table.GCB-TourneyGA			{ width: 100%; border: 0px; text-align: center; background-color: #C00;
+                    	    font: bold 11pt "Arial",HelveticaNarrow,sans-serif; color: #FFF }
+table.GCB-TourneyGA td	 	{ padding: 0px; }
+table.GCB-TourneyGAA		{ width: 100%; border: 0px; text-align: center; background-color: #660066;
+                    	    font: bold 11pt "Arial",HelveticaNarrow,sans-serif; color: #FFF }
+table.GCB-TourneyGAA td 	{ padding: 0px; }		
+					
+/* table of results */
+
+table.GResults     			{ width: 100%; border: 1px solid #CCC; border-collapse: collapse; 
+								text-align: center; background-color: #FFF;
+                       			font: "Times New Roman",Times,serif }
+table.GResults td  			{ border: 1px solid #CCC; padding: 1px }
+table.GResults a:link 		{ color: black; text-decoration: none }
+table.GResults a:visited 	{ color: black; text-decoration: none }
+table.GResults a:hover 		{ color: red; text-decoration: underline }
+table.GResults a:active 	{ color: red; text-decoration: underline }
+
+table.GR-Message			{ width: 100%; border: 0px; text-align: left; background-color: #F88;
+                        		font: bold 12pt "Times New Roman",Times,serif }
+
+table.GResults td.GR-Playoff			{ background-color: #FD5; 	color: #000; font-size: 12pt; font-weight: bold; }
+table.GResults td.GR-Head    			{ background-color: #9C9; color: #000; font-size:  12pt; font-weight: bold }
+table.GResults td.GR-PlayerText			{ background-color: #9C9; color: #000; font-size:  12pt; font-weight: bold; text-align: left }
+table.GResults td.GR-ParText			{ background-color: #9C9; color: #000; font-size: 9pt; text-align: right }
+table.GResults td.GR-ParYardage      	{ background-color: #9C9; color: #000; font-size: 9pt }
+
+table.GResults td.GR-Team         		{ font-family: "Arial",HelveticaNarrow,sans-serif;  background-color: #FFF; color: #000; font-size: 14pt; font-weight: bold;text-align: left; height: 55px;	vertical-align: bottom }
+table.GResults td.GR-TeamIndiv        	{ background-color: #DFD; color: #000; font-size: 11pt; text-align: left; line-height: 97% }
+table.GResults td.GR-Indiv        		{ background-color: #DFD; color: #000; font-size: 10pt; text-align: left; line-height: 97% }
+table.GResults font.GR-IndivTeam     	{ color: #000; font: 8pt}
+
+table.GResults td.GR-Eagle       	 	{ background-color: #A0A; color: #FFF; font-size: 11pt }
+table.GResults td.GR-Birdie      	 	{ background-color: #F88; color: #000; font-size: 11pt }
+table.GResults td.GR-Par          		{ background-color: #FFF; color: #000; font-size: 11pt }
+table.GResults td.GR-Bogey        		{ background-color: #CCC; color: #000; font-size: 11pt }
+table.GResults td.GR-Double       		{ background-color: #88F; color: #000; font-size: 11pt }
+table.GResults td.GR-Triple       		{ background-color: #444; color: #FFF; font-size: 11pt }
+table.GResults td.GR-SubTotal     		{ background-color: #DFD; color: #000; font-size: 12pt; font-weight: bold }
+table.GResults td.GR-Total        		{ background-color: #FFF; color: #008; font-size: 12pt; font-weight: bold }
+table.GResults td.GR-Spacer       		{ background-color: #DFD}
+table.GResults td.GR-TeamTotalText		{ background-color: #FFF; color: #000; font: 12pt; text-align: left }
+
+
+/* key to colors */
+
+table.GR-Key	     	{ width: 300px; border: 1px solid #CCC; border-collapse: collapse; 
+							text-align: center; background-color: #FFF;
+             	           font-size: 12pt; font-weight: bold; font-family: "Times New Roman",Times,serif }
+table.GR-Key td 	 	{ border: 1px solid #CCC; padding: 1px }
+table.GR-Key td.GK-KeyText       	{ text-align: left; font-size: 12pt; font-weight: bold  }
+table.GR-Key td.GR-Eagle       	 	{ background-color: #A0A; color: #FFF; font-size: 11pt }
+table.GR-Key td.GR-Birdie      	 	{ background-color: #F88; color: #000; font-size: 11pt }
+table.GR-Key td.GR-Par          		{ background-color: #FFF; color: #000; font-size: 11pt }
+table.GR-Key td.GR-Bogey        		{ background-color: #CCC; color: #000; font-size: 11pt }
+table.GR-Key td.GR-Double       		{ background-color: #88F; color: #000; font-size: 11pt }
+table.GR-Key td.GR-Triple       		{ background-color: #444; color: #FFF; font-size: 11pt }
+
+/* table of links */
+
+table.GR-Links	     	{ width: 700px; border: 1px solid #888; border-collapse: collapse; 
+							text-align: center; background-color: #FFF;
+                	        font: bold 10pt "Arial",HelveticaNarrow,sans-serif; }
+table.GR-Links td 	 	{ border: 0px solid #CCC; padding: 5px }
+table.GR-Links td.GR-LinkTitle 	 	{ font: italic 14pt }
+
+
+/* Big Board scoreboard used at the sites */
+
+table.GBigBoard     	{ width: 100%; border: 1px solid #000;
+                      	  border-collapse: collapse; text-align: center; background-color: #FFF;
+                      	  font-family: "Arial",Helvetica,sans-serif }
+table.GBigBoard td  	{ border: 1px solid #000; padding: 1px; height: 32px }
+
+table.GBigBoard td.GBB-Title			{ color: #050; font: bold 24pt }
+table.GBigBoard td.GBB-Time				{ color: #000; font: bold 11pt }
+table.GBigBoard td.GBB-Playoff			{ background-color: #FB2; color: #000; font: bold 14pt }
+table.GBigBoard td.GBB-Message			{ background-color: #FF0; color: #000; font: bold 15pt }
+table.GBigBoard td.GBB-Head				{ background-color: #060; color: #FFF; font: bold 12pt }
+table.GBigBoard td.GBB-Name				{ color: #000; font: bold 12pt "Arial",HelveticaNarrow,sans-serif; text-align: left }
+table.GBigBoard td.GBB-NameComp			{ color: #000; font: bold 12pt "Arial Narrow",HelveticaNarrow,sans-serif; text-align: left }
+table.GBigBoard td.GBB-School			{ color: #050; font: bold 9pt "Arial",HelveticaNarrow,sans-serif; text-align: left }
+table.GBigBoard td.GBB-StartHole		{ background-color: #CCC }
+table.GBigBoard font.GBB-UnderPar		{ color: #F00; font: bold 14pt }
+table.GBigBoard font.GBB-OverPar		{ color: #000; font: bold 14pt }
+
+table.GBB-Teams			{ width: 100%; border: 1px solid #000;
+                    	    border-collapse: collapse; text-align: left; background-color: #FFF;
+                        	font: bold 14pt "Arial",Helvetica,sans-serif }
+
+table.GBB-Teams	td		{ height: 28px }
+
+p.Leading8px	 		{ margin: 0 0 8px}
+
+
+														
+/* combined course statistics  */
+
+table.GStats   			{ width: 650px; border: 1px solid #CCC; border-collapse: collapse; 
+							text-align: center; background-color: #FFF;
+                        	font: 11pt "Times New Roman",Times,serif }
+table.GStats td  		{ width: 9%; border: 1px solid #CCC; padding: 1px }
+
+table.GStats td.GS-Title	    		{ background-color: #080; color: #FFF; font: bold 15pt }
+table.GStats td.GS-Head	    		{ background-color: #9C9; color: #000; font: bold 11pt }
+
+
+/* table of tee times */
+
+table.GTeeTime     		{ width: 100%; border: 1px solid #CCC; border-collapse: collapse; 
+							text-align: center; background-color: #FFF;
+                       		font: 10pt "Times New Roman",Times,serif }
+table.GTeeTime td  		{ border: 1px solid #CCC; padding: 1px; vertical-align: top }
+
+table.GTeeTime  td.GT-Head	    		{ background-color: #9C9; color: #000; font: bold 11pt }
+table.GTeeTime  td.GT-Text	    		{ text-align: left }
+
+
+
+/* Football timetable */
+
+table.timetable {
+	border: 0px;
+	background-color: #FFFFFF;
+}
+
+table.timetable tr {
+	border: 0px;
+}
+
+table.timetable td {
+	border: 0px;
+	vertical-align: top;
+}
+
+
+/* the following styles must also be put in ihsa/portals/default/default.css  */
+
+
+table.YellowMenu {
+	background-color: #FFFF99; 
+	padding: 5px; 
+	border: thin dotted #999999;
+	border-collapse: collapse;
+	}
+	
+p.ThisActivity {
+	font-family: Rockwell, "Rockwell MT", 'LithoMedium', Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	margin: 0px;
+	padding: 4px;
+	background-color: #DD5F2D;
+}
+p.ThisActivity a:link {
+	text-decoration:none;
+	color: #FFFFFF;
+}
+p.ThisActivity a:visited {
+	text-decoration:none;
+	color: #FFFFFF;
+}
+p.ThisActivity a:hover {
+	text-decoration:none;
+	color: #FFFFFF;
+}
+p.ThisActivity a:active {
+	text-decoration:none;
+	color: #FFFFFF;
+}
+p.iFrameMenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #335FA3;
+	border: 1px solid #FFFFFF;
+	margin: 0px;
+	padding: 4px;
+	background-color: #CCCCCC;
+	font-weight: bold;
+	text-indent: 10px;
+}
+p.iFrameMenu a:link {
+	text-decoration:none;
+	color: #335FA3;
+}
+p.iFrameMenu a:visited {
+	text-decoration:none;
+	color: #335FA3;
+}
+p.iFrameMenu a:hover {
+	text-decoration:none;
+	color: #335FA3;
+}
+p.iFrameMenu a:active {
+	text-decoration:none;
+	color: #335FA3;
+}
+p.iFrameMenuItem {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 190%;
+	font-weight: normal;
+	color: #000000;
+	text-align:center;
+	margin: 0px;
+	padding: 0px;
+}
+p.iFrameMenuItemLeft {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 190%;
+	font-weight: normal;
+	color: #000000;
+	text-align:left;
+	margin: 0px 0px 0px 3px;
+	padding: 0px;
+}
+span.MenuHighlight {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #DD5F2D;
+	font-weight: bold;
+}
+p.QuickResultsMode {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 190%;
+	font-weight: bold;
+	color: #000000;
+	text-align:center;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FF99FF;
+}
+.teaminfophoto img {
+    max-width: 600px;
+    height: auto;
+}

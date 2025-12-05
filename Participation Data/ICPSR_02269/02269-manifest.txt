@@ -1,0 +1,32 @@
+File Manifest for ICPSR 2269
+
+U.S. Dept. of Education, National Center for Education Statistics. COMMON
+CORE OF DATA: LOCAL EDUCATION AGENCIES (LEA) NONFISCAL DATA, 1981-1982.
+ICPSR version. Washington, DC: U.S. Dept. of Education, National Center for
+Education Statistics [producer], 1982. Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributor], 1999.
+http://doi.org/10.3886/ICPSR02269.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02269-descriptioncitation.pdf       -       -         -       2014-07-03  -
+
+    02269-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Common Core of Data:  Local Education Agencies (LEA) Nonfiscal Data,
+1981-1982
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02269-0001-Codebook.pdf             -       -         -       1999-09-14  b3091d7af5d7b086d286201ebfcc65ab
+
+    02269-0001-Data.txt                 540     16,200    48      1999-09-14  e8af77efbda91f70c4f049515cffeafc
+
+    02269-0001-Setup.sas                -       -         -       1999-09-14  e73ee801ba950be05cd892fb4ddfb187
+
